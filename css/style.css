@@ -514,11 +514,22 @@ animation: fadeInUp 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) 0.4s both;
   background: rgba(255, 255, 255, 0.35);
   border-color: rgba(255, 255, 255, 0.7);
   transform: translateY(-4px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 30px rgba(165, 163, 163, 0.096);
 }
 
 .btn:active {
   transform: translateY(-1px);
+}
+
+.btn-inbody {
+  color: #0d6efd;
+  background-color: #c9c8c844;
+  box-shadow: #1a1a1a80 20px 10px 90px;
+}
+.btn-inbody:hover {
+  color: #096cff;
+  background-color: #c4c2c266;
+  box-shadow: #1a1a1a80 30px 15px 100px;
 }
 
 .hero-features {
@@ -766,7 +777,7 @@ animation: fadeInUp 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) 0.4s both;
   }
 }
 
-/* About Preview */
+/* About Preview */ /* About Preview */ /* About Preview */ /* About Preview */ /* About Preview */ /* About Preview */
 .about-preview {
   padding: 60px 0;
   text-align: center;
@@ -922,7 +933,7 @@ footer {
 }
 
 
-/* Service Page Styles */
+/* Service Page Styles */ /* Service Page Styles */ /* Service Page Styles */ /* Service Page Styles */ /* Service Page Styles */
 .page-hero {
   background: linear-gradient(135deg, rgba(13, 110, 253, 0.92), rgba(220, 53, 69, 0.92)),
     url("../images/ophthalmologist-doctor-consulting-patient.jpg") center/cover no-repeat;
@@ -1870,7 +1881,7 @@ footer {
   color: #0d6efd;
 }
 
-/* About Page Styles */
+/* About Page Styles */ /* About Page Styles */ /* About Page Styles */ /* About Page Styles */ /* About Page Styles */
 .about-section {
   padding: 60px 0;
 }
@@ -1905,7 +1916,7 @@ footer {
   margin: 40px 0;
 }
 
-/* Contact Page Styles */
+/* Contact Page Styles */ /* Contact Page Styles */ /* Contact Page Styles */ /* Contact Page Styles */ /* Contact Page Styles */
 .clinic-info-section {
   background: linear-gradient(135deg, #f8f9fa, #ffffff);
   padding: 80px 20px;
